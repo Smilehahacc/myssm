@@ -32,7 +32,6 @@ public class CategoryController {
         json.put("category", JSONObject.toJSON(c));
         return json.toJSONString();
     }
-
     @ResponseBody
     @RequestMapping("/getManyCategory")
     public String getManyCategory() {
