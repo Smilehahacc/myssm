@@ -11,7 +11,6 @@ import java.util.List;
  * @since 1.0.0
  */
 
-
 public class Category {
     private int id;
     private String name;
